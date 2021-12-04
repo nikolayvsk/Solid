@@ -26,7 +26,7 @@ class EmailSender : IEmailSender
     public void Send(Email email)
     {
         // ... sending...
-        ConsoleWriteLine("Email from '" + email.From + "' to '" + email.To+ "' was send");
+        Console.WriteLine("Email from '" + email.From + "' to '" + email.To+ "' was send");
     }
 }
 
